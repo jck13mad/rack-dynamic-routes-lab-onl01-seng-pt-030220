@@ -10,9 +10,7 @@ class Application
       
       unless item == nil 
         resp.write item.price
-      end
-      
-      
+      else
   
   
   
