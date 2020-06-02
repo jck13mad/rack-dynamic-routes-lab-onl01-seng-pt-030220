@@ -8,7 +8,8 @@ class Application
       item_name = req.path.split("/items/").last 
       item = @@items.find { |s| s.name == item.name }
       
-      unless 
+      unless item == nil 
+      
   
   
   
