@@ -19,11 +19,6 @@ class Application
       resp.write "Route not found"
     end
     
-    
-  
-  
-  
-  
-  
+    resp.finish
   
 end
