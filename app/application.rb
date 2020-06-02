@@ -9,7 +9,10 @@ class Application
       item = @@items.find { |s| s.name == item.name }
       
       unless item == nil 
-        resp.write ""
+        resp.write item.price
+      end
+      
+      
   
   
   
